@@ -1,0 +1,15 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore package files
+package-lock.json
+package.json
+
+# Ignore specific files
+basic.js
+newfile.js
+practiceAppend.js
+source.js
+
+# Ignore Practice folder
+Practice/
