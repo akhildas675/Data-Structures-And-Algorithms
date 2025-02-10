@@ -8,4 +8,14 @@ function recursiveFactorial(n) {
 console.log(recursiveFactorial(5));
 console.log(recursiveFactorial(7));
 console.log(recursiveFactorial(1));
-//git commit -m "dsa basic opreation(array,linkedlist,string,binarySearch,recursion)"  
+
+
+
+function fac(n){
+if(n===0){
+    return 1
+}
+return n*fac(n-1)
+}
+
+console.log(fac(4));

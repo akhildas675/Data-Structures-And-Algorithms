@@ -32,6 +32,8 @@ class linkedList {
             this.tail=newNode
         }
         this.size++
+
+        
     }
     preppend(value){
         let newNode=new Node(value)
@@ -43,6 +45,21 @@ class linkedList {
             this.head=newNode;
         }
         this.size++;
+    }                                                                     
+
+    reverse(){
+        let curr=this.head;
+        let temp=null;
+        while (curr) {
+            temp=curr.next;
+            curr.prev=curr.next;
+            curr.next=temp;
+            curr=curr.prev
+        }
+        if(temp){
+            this.tail=this.head;
+            this.head=temp.prev
+        }
     }
 
     printForward(){
@@ -75,5 +92,9 @@ list.append(1)
 list.append(2)
 list.append(3)
 list.append(4)
+list.printForward()
+list.printBackward()
+
+list.reverse()
 list.printForward()
 list.printBackward()

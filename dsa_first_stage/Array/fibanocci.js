@@ -6,8 +6,8 @@ for(let i =2; i<n;i++){
 return fib
 
 }
-console.log(fibanocci(2))
-console.log(fibanocci(3))
-console.log(fibanocci(4))
-console.log(fibanocci(5))
+// console.log(fibanocci(2))
+// console.log(fibanocci(3))
+// console.log(fibanocci(4))
+// console.log(fibanocci(5))
 console.log(fibanocci(7))

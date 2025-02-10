@@ -1,5 +1,5 @@
 let array=[1,2,3,4,5,6,7,8,1,3,4,5,6]
-let str=[a,g,h,d,r,c,d,g,h,k]
+let arr = ['a', 'g', 'h', 'd', 'r', 'c', 'd', 'g', 'h', 'k'];
 
   
 
@@ -20,11 +20,11 @@ function duplicateRemove(arr) {
 }
 
 
-console.log(duplicateRemove(array));
+console.log('filter',duplicateRemove(array));
 
 
 function dup(arr) {
-    arr.sort((a,b)=>a-b)
+    arr.sort()
     console.log(arr);
     
 
@@ -37,4 +37,4 @@ function dup(arr) {
     return arr
 }
 
-console.log(dup(array));
+console.log(dup(arr));

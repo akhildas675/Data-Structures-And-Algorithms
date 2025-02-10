@@ -78,5 +78,5 @@ for (let i = 1; i <= 5; i++) {
 }
 list.printList();
 
-list.removeByIndex(4);
+list.removeByIndex(2);
 list.printList();
