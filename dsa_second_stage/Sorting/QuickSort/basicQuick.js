@@ -4,17 +4,17 @@ function quickSort(arr) {
     }
     let left=[];
     let right=[];
-    let lastvalue=arr[arr.length-1]
+    let lastValue=arr[arr.length-1]
 
     for(let i=0;i<arr.length-1;i++){
-        if(arr[i]<lastvalue){
+        if(arr[i]<lastValue){
             left.push(arr[i])
         }else{
             right.push(arr[i])
         }
     }
 
-    return [...quickSort(left),lastvalue,...quickSort(right)]
+    return [...quickSort(left),lastValue,...quickSort(right)]
     
 }
 
