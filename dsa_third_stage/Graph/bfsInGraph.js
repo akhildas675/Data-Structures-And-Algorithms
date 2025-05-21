@@ -68,12 +68,12 @@ class Graph {
     }
 
 
-    display(){
-        for(let vertex in this.adjacencyList){
-            console.log(vertex +'->'+[...this.adjacencyList[vertex]]);
-            
+    display() {
+        for (let vertex in this.adjacencyList) {
+            console.log(`${vertex} -> ${[...this.adjacencyList[vertex]].join(', ')}`);
         }
     }
+    
 }
 
 
@@ -97,4 +97,4 @@ graph.addEdge("C","F")
 graph.display()
 
 console.log("bfs");
-graph.bfs("A")
+graph.bfs("E")
