@@ -32,6 +32,7 @@ class MinHeap{
     }
 
     heapify(i){
+        console.log(i)
         let left= 2*i+1
         let right=2*i+2
         let smallest=i
