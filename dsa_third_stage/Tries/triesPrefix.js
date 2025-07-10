@@ -1,5 +1,3 @@
-const { workerData } = require("worker_threads");
-
 class TriesNode {
     constructor() {
         this.children={};

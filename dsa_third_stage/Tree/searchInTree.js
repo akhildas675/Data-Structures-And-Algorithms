@@ -62,7 +62,7 @@ class searchInBst {
 
   search(root,value){
     if(!root){
-      return true
+      return false
     }else{
       if(root.value===value){
         return  true
