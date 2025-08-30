@@ -1,11 +1,30 @@
-# Data-Structures-And-Algorithms
-My DSA Learning Journey
-I have divided my DSA study into three parts:
+# Data Structures and Algorithms (DSA)
 
-● First Part: Arrays, Strings, Linked Lists, and Recursion
+This repository documents my **DSA learning journey** and the problems I’ve practiced to strengthen my problem-solving skills.  
+I have organized the study plan into three main phases:
 
-● Second Part: Sorting Algorithms, Hash Tables, Stacks, and Queues
+### 📌 Phase 1: Foundations
+- Arrays  
+- Strings  
+- Linked Lists  
+- Recursion  
 
-● Third Part: Graphs, Heaps, Trees, and Tries
+### 📌 Phase 2: Intermediate Concepts
+- Sorting Algorithms  
+- Hash Tables  
+- Stacks  
+- Queues  
 
-Initially, I struggled to understand the logic behind DSA. However, through continuous practice and learning, I have been improving my problem-solving skills.
+### 📌 Phase 3: Advanced Concepts
+- Graphs  
+- Heaps  
+- Trees  
+- Tries  
+
+---
+
+### 🌱 Learning Journey
+At first, I found it challenging to understand the logic behind DSA.  
+Through **consistent practice and problem-solving**, I have gradually improved and developed confidence in applying DSA to coding challenges.  
+
+This repo will continue to grow as I progress in my DSA journey 🚀
